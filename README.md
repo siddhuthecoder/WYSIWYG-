@@ -79,7 +79,7 @@ This project is a WYSIWYG (What You See Is What You Get) web page builder inspir
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose.
 - **Authentication**: bcrypt, JWT (JSON Web Tokens).
 - **State Management**: Redux.
-- **Deployment**: AWS.
+- **Deployment**: Vercel for Frontend, render for backend
 
 ## Implementation Details
 
