@@ -58,7 +58,7 @@ const Home = () => {
           <span
             className="z-[4] text-white cursor-pointer absolute left-[20px] w-[60px] h-[60px] border-[5px] border-[green] rounded-full bg-black flex justify-center items-center top-[20px]"
             onClick={() => setShow(true)}
-          >
+          >        
             <PiSquaresFourFill className="text-4xl text-green-500 cursor-pointer" />
           </span>
         )}

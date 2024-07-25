@@ -22,6 +22,7 @@ const SidebarContainer = styled.div`
 const SidebarItem = styled.div``;
 
 const Item = ({ type, children }) => {
+  
   const [, drag] = useDrag(() => ({
     type: 'COMPONENT',
     item: { type },
@@ -36,9 +37,9 @@ const Item = ({ type, children }) => {
 
 const Sidebar = ({ isShow }) => {
   const handleLogout = () => {
-    // Perform logout actions here, e.g., clear local storage, redirect to login page, etc.
-    localStorage.removeItem('token'); // Assuming you store user token in local storage
-    window.location.href = '/login'; // Redirect to login page
+   
+    localStorage.removeItem('token'); 
+    window.location.href = '/login'; 
   };
 
   return (

@@ -65,7 +65,7 @@ const Canvas = ({ components, setComponents }) => {
   });
   const [device, setDevice] = useState('laptop'); // State for selected device
 
-  const [, drop] = useDrop(() => ({
+  const [, drop] = useDrop(() => ({           
     accept: 'COMPONENT',
     drop: (item) => {
       setComponents((prevComponents) => [
@@ -148,7 +148,7 @@ const Canvas = ({ components, setComponents }) => {
       reader.readAsText(file);
     }
   };
-
+     
   return (
     <DeviceFrame device={device}>
       <CanvasContainer ref={drop}>
